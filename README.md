@@ -41,13 +41,13 @@ Para ejecutar las pruebas, asegúrate de tener instalados los siguientes compone
 1. Clona este repositorio
 
    ```bash
-   git clone https://github.com/tuusuario/tu-repositorio.git
+   git clone https://github.com/juancamiloau/pw-dxhotels.git
    ```
 
 1. Navega al directorio del proyecto:
 
    ```bash
-   cd tu-repositorio
+   cd pw-dxhotels
    ```
 
 1. Instalar dependencias
@@ -57,6 +57,12 @@ npm install
 ```
 
 ## Ejecución de pruebas
+
+La validación con la cual el bug fue encontrado fue deshabilitada bajo comentario para poder ejecutar todo el flujo, en caso tal de querer verificarla por favor descomente la linea #86 del archivo **hotel-results-page.ts**
+
+```javascript
+//expect(priceNumber).toBeGreaterThanOrEqual(minPriceShowed);
+```
 Para ejecutar todas las suites de prueba, utiliza el siguiente comando:
 
 ```bash
